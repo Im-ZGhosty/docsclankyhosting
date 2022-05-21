@@ -1,0 +1,43 @@
+{
+  "name": "docsclankyhosting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Im-ZGhosty/docsclankyhosting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Im-ZGhosty/docsclankyhosting/issues"
+  },
+  "homepage": "https://github.com/Im-ZGhosty/docsclankyhosting#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@vuepress/bundler-vite": "^2.0.0-beta.45",
+    "@vuepress/core": "^2.0.0-beta.45",
+    "@vuepress/plugin-docsearch": "^2.0.0-alpha.1",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "eslint": "^8.16.0",
+    "eslint-config-sora": "^3.1.0",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-vue": "^9.0.1",
+    "vuepress": "^2.0.0-beta.45",
+    "vuepress-vite": "^2.0.0-beta.45"
+  },
+  "dependencies": {
+    "@discord-message-components/vue": "^0.2.1",
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.45",
+    "vue": "^3.2.35",
+    "vue-router": "^4.0.15",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuetify": "^2.6.6"
+  }
+}

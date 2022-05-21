@@ -1,0 +1,88 @@
+// base colors
+:root {
+	// Guide green colors
+  --green-430: #7fb3d5;
+  --green-460: #5499c7;
+  --green-500: #2980b9;
+  --green-530: #2471a3;
+  --green-560: #1f618d;
+  --green-600: #1a5276;
+  --green-630: #154360;
+  --blurple-430: #707bf4;
+  --blurple-460: #6571f3;
+  --blurple-500: #5865f2;
+  --blurple-530: #505cdc;
+  --blurple-560: #4752c4;
+  --blurple-600: #3c45a5;
+  --blurple-630: #343b8f;
+  --orange-430: #f48a70;
+  --orange-460: #f3a565;
+  --orange-500: #f29658;
+  --orange-530: #dc9f50;
+  --orange-560: rgb(196, 131, 71);
+  --orange-600: #a56f3c;
+  --orange-630: #8f5534;
+  --purple-430: #8d5df4;
+  --purple-460: #8755e2;
+  --purple-500: #804ed1;
+  --purple-530: #7947c0;
+  --purple-560: #7140af;
+  --purple-600: #69399f;
+  --purple-630: #61338f;
+  --theme-430: var(--green-430);
+  --theme-460: var(--green-460);
+  --theme-500: var(--green-500);
+  --theme-530: var(--green-530);
+  --theme-560: var(--green-560);
+  --theme-600: var(--green-600);
+  --theme-630: var(--green-630);
+  --text-gray: #e5e7eb;
+  --c-headers: #111827;
+  --c-brand: var(--theme-560);
+  --c-brand-light: var(--theme-460);
+  --c-text: #374151;
+  --c-text-accent: var(--c-brand-light);
+  --c-tip: #42b983;
+  --c-tip-bg: #e2f5ec;
+  --c-tip-text: #215d42;
+  --c-tip-title: #359469;
+  --c-warning: #e7c000;
+  --c-warning-bg: rgba(255, 229, 100, 0.25);
+  --c-warning-text: #6b5900;
+  --c-warning-title: #b29400;
+  --c-danger: #c00;
+  --c-danger-bg: #ffe0e0;
+  --c-danger-text: #600;
+  --c-danger-title: #c00;
+  --code-hl-bg-color: #353b45;
+  --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --navbar-height: 4rem;
+  --content-width: 100%;
+  --wrapper-max-width: 96rem;
+  --c-border: rgba(0, 0, 0, 0.05);
+}
+
+html.dark {
+  --c-brand: #5499c7;
+  --c-brand-light: #5499c7;
+	--c-headers: #fff;
+	--c-bg-scrollbar: var(--c-bg);
+	--c-bg: #1d1d1d;
+	--c-bg-sidebar: #191919;
+	--c-text: #d1d5db;
+	--c-tip: #42b983;
+	--c-tip-bg: rgba(66, 185, 131, 0.25);
+	--c-tip-text: #a0ddc1;
+	--c-tip-title: #66c99c;
+	--c-warning: #e7c000;
+	--c-warning-bg: rgba(255, 229, 100, 0.25);
+	--c-warning-text: #ffefa2;
+	--c-warning-title: #ffd91d;
+	--c-danger: #f66;
+	--c-danger-bg: rgba(204, 0, 0, 0.25);
+	--c-danger-text: #f66;
+	--c-danger-title: #ff2929;
+	--code-hl-bg-color: #353b45;
+	--c-border: rgba(255, 255, 255, 0.05);
+  }
